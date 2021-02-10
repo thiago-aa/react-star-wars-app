@@ -1,0 +1,144 @@
+html, body, #root {
+    background-color: #f1f1f1;
+  }
+  
+  body, input, button {
+    font-family: 'Roboto Slab', serif;
+    color: #ccc;
+  }
+  
+  .people {
+    margin: 10px;
+    padding: 10px;
+    min-width: 50%;
+    border: 1px solid #777;
+    border-radius: 10px;
+    background-color: rgba(100, 100, 100, .13); 
+    backdrop-filter: blur(5px);
+    color: #ccc;
+  }
+
+  .people a {
+    color: #0066cc;
+  }
+  
+  .people-name span {
+    font-weight: bold;
+  }
+  
+  .favorite-box {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .favorite-box button {
+    background-color: transparent;
+  }
+  
+  .favorite-box span {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .people-atribute {
+     display: flex; 
+     flex-direction: row; 
+  }
+  
+  .people-atribute span {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .title {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .people-itens-list span {
+    font-size: larger;
+  }
+  
+  
+  .people-itens-list {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #777;
+    border-radius: 5px;
+  }
+  
+  .people-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .delete-button {
+    font-size: 16px;
+    border: none;
+    padding: 0px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  .favorite-button {
+    float: right;
+    margin-left: 91%;
+    cursor: pointer;
+    color: #777;
+    background-color: transparent;
+    border: none;
+    font-size: 22;
+  }
+  
+  .favorite-button-activated {
+    color: goldenrod;
+    float: right;
+    margin-left: 91%;
+    cursor: pointer;
+  }
+  
+  
+  .jarjar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #ff0800;
+  }
+  
+  .menu{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(100, 100, 100, .15); 
+    backdrop-filter: blur(5px);
+  }
+
+  .menu a{
+    color: #FFE81F;
+    text-decoration: none;
+    font-size: 22px;
+  }
+
+  .menu a:rover {
+    text-decoration: underline;
+    cursor: none;
+  }
+  
+  .page-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px 10px 20px;
+  }
+  
+  .page-buttons button {
+    background-color: black;
+    color: #FFE81F;
+    font-size: 15px;
+    cursor: pointer;
+  }

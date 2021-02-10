@@ -1,0 +1,31 @@
+.vehicles-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.vehicles {
+    margin: 10px;
+    padding: 10px;
+    min-width: 50%;
+    border: 1px solid #777;
+    border-radius: 10px;
+    background-color: rgba(100, 100, 100, .13); 
+    backdrop-filter: blur(5px);
+    color: #ccc;
+}
+
+.vehicles span {
+    font-weight: bolder;
+}
+
+.vehicles-atributes-list {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #777;
+    border-radius: 5px;
+}
+
+.vehicles-atributes-list div {
+    margin-left: 5px;
+}
